@@ -1,0 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.wrapper {
+  position:relative;
+  width:640px;
+  margin: 0 auto;
+}
+.background {
+  position:absolute;
+  width:620px;
+  height:620px;
+  top:4px;
+  background-color:#000;
+  border-radius:310px;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+  opacity: 0.8;
+}
+.circle {
+  position:absolute;
+  top:195px;
+  left:195px;
+  width:250px;
+  height:250px;
+  background:#00008B;
+  border-radius:125px;
+  z-index:10px;
+}
+.eye {
+  height:40px;
+  width:40px;
+  border-radius:60%;
+  margin:50px;
+  background: gray;
+}
+
+
+.sleepy-eye {
+  box-shadow:0 10px 0 0 gray;
+  background: none;
+}
+.eye-right {
+  float:left;
+  position:absolute;
+}
+
+.eye-left {
+  float:right;
+}
+.mouth {
+  height:15px;
+  width: 100px;
+  background:gray;
+  border-top-radius:200px;
+  border-bottom-left-radius:210px;
+  border-bottom-right-radius:210px;
+  position:absolute;
+  margin:120px;
+  margin-bottom:-30x;
+  transform:translate(-35%,44%);
+
+}
